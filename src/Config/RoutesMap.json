@@ -1,0 +1,16 @@
+[
+   {
+      "path": "/",
+      "controller": "userController",
+      "action": "getInfo",
+      "method": "get",
+      "middlewares": []
+  },
+   {
+      "path": "/user/register",
+      "controller": "userController",
+      "action": "register",
+      "method": "put",
+      "middlewares": []
+  }
+]
